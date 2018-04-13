@@ -1,0 +1,4 @@
+Django==1.9.7
+django-base64field==1.0
+djangorestframework==3.3.3
+pytz==2018.4
