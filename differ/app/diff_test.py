@@ -27,6 +27,13 @@ class TestDocumentDiff(unittest.TestCase):
         with self.assertRaises(ValueError):
             get_diff_blocks(data1, data2)
 
+    def test_without_one_side_data_error(self):
+        data1 = "HOLAMUNDO13578"
+        data2 = ""
+
+        with self.assertRaises(ValueError):
+            get_diff_blocks(data1, data2)
+
 
 if __name__ == '__main__':
     unittest.main()
