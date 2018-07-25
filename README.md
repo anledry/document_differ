@@ -56,7 +56,7 @@ OK
 
 ```
 
-### Run manul tests
+### Run manual tests
 The test data using for the manual testing was the same that the unit test
 ```
 $ curl -d '{"data":"SEVMTE9XT1JMRDEyMzQ1"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:8000/v1/diff/89/left/
