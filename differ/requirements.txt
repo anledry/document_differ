@@ -1,4 +1,4 @@
-Django==2.1.5
+Django==2.1.6
 django-base64field==1.0
 djangorestframework==3.3.3
 pytz==2018.4
